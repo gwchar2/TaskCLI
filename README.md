@@ -1,7 +1,7 @@
 # TaskCLINamespace
 A CLI based Task Manager
 
-
+```
 taskcli/                                # Project root (Git repo top-level)
 ├─ CMakeLists.txt                       # Single CMake build script: declares project name, C++ standard, sources, and links SQLite (system-provided for now)
 ├─ include/                             # Public headers (visible to src/ and future tests/tools)
@@ -27,3 +27,4 @@ taskcli/                                # Project root (Git repo top-level)
 │  └─ tasks.json                        # One-click commands to configure and build via CMake from within VS Code (no terminal typing needed)
 ├─ .clang                               # Formatting rules for consistent C/C++ style across the repo (used by IDEs or clang-format CLI)
 ├─ .editorconfig                        # Editor-agnostic basics (indent size, trailing whitespace, newline policy, charset) applied across file types
+```
