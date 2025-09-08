@@ -1,0 +1,50 @@
+BasedOnStyle: LLVM
+IndentWidth: 4
+ColumnLimit: 120
+
+# Braces: always `int main() {`
+BreakBeforeBraces: Attach
+
+# Spacing around operators
+SpaceBeforeAssignmentOperators: true
+
+# One-line statements
+AllowShortIfStatementsOnASingleLine: All
+AllowShortLoopsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+
+# Pointers & templates
+PointerAlignment: Left
+DerivePointerAlignment: false
+SpaceAfterTemplateKeyword: true
+
+# Includes
+SortIncludes: false
+
+# Align consecutive items
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignFunctionDeclarations: true
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+  AlignCaseArrows: true
+
+# Trailing comments
+AlignTrailingComments: true
+SpacesBeforeTrailingComments: 1
+
+BreakInheritanceList: AfterColon

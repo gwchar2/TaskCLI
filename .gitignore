@@ -1,0 +1,6 @@
+/build/
+*.db
+*.pdb
+*.obj
+*.log
+.DS_Store
